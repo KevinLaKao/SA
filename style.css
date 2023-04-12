@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .navbar {
+    background-color: rgb(52, 108, 173);
+    display: flex;
+    height: 75px;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  .navbar > img{
+      margin:0 0 0 .45em;
+      width: 17%;
+      height:58%;
+  
+  }
+  
+  .navbar-ul {
+    background-color: brown;
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    width: 50%;
+    height: 75px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+  
+  }
