@@ -16,8 +16,7 @@
 
 .navbar > img {
   margin: 0 0 0 3.45em;
-  width: 3%;
-  height: 58%;
+  width: 6%;
 }
 
 .navbar-ul {
@@ -38,11 +37,8 @@
   font-size: 1.75rem;
 }
 
-.hero{
-  height: 500px;
-}
-
 .footer-clean {
+  margin-top: 150px;
   padding: 50px 0;
   background-color: #3e1f1f;
   color: #f0f4f8;
@@ -129,6 +125,19 @@
   margin-bottom: 0;
   font-size: 13px;
   opacity: 0.6;
+}
+
+.hero {
+  margin: 100px;
+  align-items: center;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+.hero img {
+  width: 1250px;
+  height: 650px;
+  border-radius: 120px;
 }
 
 h2 {
@@ -288,3 +297,150 @@ h2::after {
 .carousel .wish-icon .fa-heart {
   color: rgb(228 114 27);
 }
+
+/* introduction */
+
+.about {
+  font-family: "Noto Serif TC", serif;
+  width: 1000px;
+  margin: 200px;
+}
+.first-paragraph {
+  /* box-shadow: 0px 0px 50px 0px rgb(142 158 181); */
+  border-radius: 25px;
+  padding: 25px;
+}
+.about .first-paragraph p {
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: "Cormorant Garamond", serif;
+}
+h6 {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* login */
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+}
+.login-form {
+  text-align: center;
+  border: 5px rgb(255, 255, 255) solid;
+  width: 500px;
+  min-height: 550px;
+  background: #faf8f1;
+  border-radius: 30px;
+  padding-top: 50px;
+}
+.login-form img {
+  width: 15%;
+}
+.login-form form input {
+  text-align: center;
+  font-size: 17px;
+  border-radius: 100px;
+  width: 250px;
+  height: 40px;
+  border-color: antiquewhite;
+  margin-top: 30px;
+  transition: all 0.4s ease-in-out;
+}
+.login-form form input:hover {
+  outline: none;
+  width: 255px;
+  height: 42.5px;
+}
+.login-form form input:focus {
+  outline: none;
+  width: 255px;
+  height: 42.5px;
+}
+.login-form form input:focus::placeholder {
+  color: rgb(215, 214, 214);
+}
+.loginBtn {
+  font-size: 18px;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.loginBtn:hover {
+  font-size: 19px;
+  width: 102.5px;
+  height: 36px;
+}
+.loginBtn:focus {
+  outline: none;
+}
+.userbtn {
+  background-color: #ff88c2;
+  transition: 0.2s;
+  border-color: white;
+}
+.sellerbtn {
+  background-color: rgb(214 208 188);
+  border-color: white;
+
+  margin-left: 30px;
+}
+.submit {
+  width: 80px;
+  height: 35px;
+  border-radius: 100px;
+  background-color: #ff88c2;
+  border-color: white;
+  color: white;
+  margin: 25px;
+  transition: all 0.2s ease-in-out;
+}
+.submit:hover {
+  width: 82.5px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: #ff88c2;
+  border-color: white;
+  color: white;
+}
+.forgot {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #c8b6a6;
+  font-size: 15px;
+  border: 0px;
+  background-color: rgb(250 248 241);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 25px;
+}
+.forgot:hover {
+  font-size: 16px;
+  color: #7d6c5c;
+}
+.regist {
+  text-decoration: none;
+  color: #c8b6a6;
+  border: 1px solid;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.regist:hover {
+  font-size: 16px;
+  color: #856d58;
+}
+.login-title {
+  color: #c8b6a6;
+  font-size: 50px;
+  font-family: fantasy;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+

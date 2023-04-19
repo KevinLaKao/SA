@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--footer icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto|Open+Sans"
+    />
+
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img src="./img/logo.png" alt="" />
+        <ul class="navbar-ul">
+          <li class="navbar-li"><a href="./index.html">首頁</a></li>
+          <li class="navbar-li"><a href="">分類瀏覽</a></li>
+          <li class="navbar-li"><a href="">購物車</a></li>
+          <li class="navbar-li"><a href="./login.html">登入</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="login">
+      <div class="login-form">
+        <img src="./img/login-icon.png" />
+        <h1 class="login-title" id="test">登入</h1>
+        <button class="loginBtn userbtn">使用者</button>
+        <button class="loginBtn sellerbtn">商家</button>
+        <form method="get" action="./myInfo.html" class="loginform">
+          <input
+            class="member"
+            type="email"
+            name="useremail"
+            placeholder="電子郵件"
+          />
+          <input
+            class="member"
+            type="text"
+            name="useraccount"
+            placeholder="帳       號"
+          />
+          <input
+            class="member"
+            type="text"
+            name="userpassword"
+            placeholder="密       碼"
+          />
+          <br />
+          <button class="submit" id="submit">登入</button>
+        </form>
+        <button class="forgot" id="hideForgotBtn">忘記密碼?</button>
+        <button class="regist" id="hideRegistBtn">註冊</button>
+      </div>
+    </div>
+
+    <div class="footer-clean">
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm-4 col-md-3 item">
+              <h3>服務內容</h3>
+              <ul>
+                <li><a href="#">美食分享</a></li>
+                <li><a href="#">餐點多樣</a></li>
+                <li><a href="#">隨點即取</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>關於我們</h3>
+              <ul>
+                <li><a href="#">商家資訊</a></li>
+                <li><a href="#">幕後團隊</a></li>
+                <li><a href="#">平台簡介</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4 col-md-3 item">
+              <h3>聯絡我們</h3>
+              <ul>
+                <li><a href="#">電話 (+886) 12345678</a></li>
+                <li><a href="#">電子郵件</a></li>
+                <li><a href="#">foodcrate2023@gamil.com</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a
+              ><a href="#"><i class="icon ion-social-twitter"></i></a
+              ><a href="#"><i class="icon ion-social-snapchat"></i></a
+              ><a href="#"><i class="icon ion-social-instagram"></i></a>
+              <p class="copyright">Company Name © 2018</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./script/login.js"></script>
+  </body>
+</html>
